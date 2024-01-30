@@ -51,7 +51,7 @@ export default {
 <template>
   <main>
     <div class="max-w-[calc(384px+16px)] mx-auto mt-12 px-4">
-      <h2 class="text-2xl font-bold mb-8">Has you paid?</h2>
+      <h2 class="text-2xl font-bold mb-8">Check Membership</h2>
       <label for="price" class="block text-sm font-medium leading-6 text-gray-900">NIM</label>
       <div class="relative mt-2 rounded-md shadow-sm">
         <input type="text" name="price" id="price"
@@ -59,7 +59,7 @@ export default {
           placeholder="XXXXXXXXX" v-model="nim" />
       </div>
       <button class="border rounded-md w-full text-center py-2 mt-2" @click="onButtonClick(nim)">
-        Check Payment Status
+        Search
       </button>
 
       <div class="mt-4">
