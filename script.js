@@ -18,7 +18,7 @@ $(async function () {
       $('#lastUpdated').text(result.lastUpdated);
       $('#result > div').removeClass('d-none');
       $("#result")
-        .removeClass('alert-info alert-danger alert-secondary')
+        .removeClass('alert-info alert-danger alert-secondary alert-success')
         .addClass(result.paid ? 'alert-success' : 'alert-secondary');
       $('#holder').addClass('d-none');
     } else {
